@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+
+    <main id="container">
+
+        <!-- Input Section -->
+        <section id="input-container">
+            <label for="img-url" class="sr-only">Image URL</label>
+            <input 
+                type="text" 
+                id="img-url" 
+                placeholder="Enter image URL"
+                autocomplete="off"
+            >
+            <button type="button" id="add-image">Add Image</button>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" aria-label="Image gallery">
+            <!-- Images will be injected here -->
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

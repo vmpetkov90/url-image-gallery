@@ -1,0 +1,85 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAGE */
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INPUT BAR */
+#input-container {
+    width: 500px;
+    display: flex;
+    margin: 100px auto 50px auto;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #303030;
+    color: #fff;
+    outline: none;
+}
+
+#add-image {
+    width: 100px;
+    background-color: #303030;
+    border: none;
+    color: #929191;
+    cursor: pointer;
+}
+
+#add-image:hover {
+    background-color: #292929;
+}
+
+/* FIXED GRID GALLERY (OPTION A) */
+#gallery {
+    width: 500px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* fixed 3-column grid */
+    gap: 15px;
+}
+
+/* IMAGE CONTAINER */
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 150px; /* fixed height for uniform grid */
+    overflow: hidden;
+}
+
+/* IMAGES */
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* makes all images uniform */
+    display: block;
+}
+
+/* DELETE BUTTON */
+.img-container button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 8px;
+
+    border: none;
+    background-color: #00000080;
+    color: #929191;
+    cursor: pointer;
+}
+
+.img-container button:hover {
+    background-color: #000000aa;
+}
