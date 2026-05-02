@@ -16,15 +16,6 @@ https://vmpetkov90.github.io/url-image-gallery/
 
 ---
 
-## 📸 Screenshots
-
-### 🖼️ Gallery Preview
-![Gallery Screenshot](https://via.placeholder.com/1000x600?text=Gallery+Screenshot)
-
-*(Replace with your real screenshot.)*
-
----
-
 ## 🚀 Features
 
 - Add images by pasting any valid image URL  
