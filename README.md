@@ -12,9 +12,7 @@ A simple and clean image gallery where users can paste an image URL to instantly
 ## 🔗 Live Demo
 
 👉 **View the live version here:**  
-https://your-username.github.io/your-repo-name/
-
-*(Replace with your actual GitHub Pages link.)*
+https://vmpetkov90.github.io/url-image-gallery/
 
 ---
 
